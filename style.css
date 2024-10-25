@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(27, 161, 223);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  height: 1000px;
+}
+
+nav {
+  display: flex;
+  padding-left: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: rgba(12, 58, 88, 0.308);
+  left: 0;
+  right: 0;
+}
+
+nav .logo h1 {
+  font-weight: 800;
+}
+
+.home {
+  padding-top: 12rem;
+}
+
+.gede {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gede h1 {
+  font-weight: 800;
+  font-size: 2.1rem;
+}
+
+.paragraf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.garis {
+  background-color: #ffffff;
+  content: "";
+  width: 15rem;
+  height: 0.3rem;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.about {
+  padding-top: 17.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.isi {
+  padding-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.isi p {
+  max-width: 700px;
+  text-align: center;
+}
+
+.btn {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.btn a {
+  background-color: rgb(6, 43, 110);
+  padding: 0 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 23px;
+  border-radius: 25px;
+  cursor: pointer;
+}
